@@ -1,0 +1,12 @@
+function setup() {
+ createCanvas(400, 400);
+}
+function draw() {
+ mudarCorDeFundo();
+}
+function mudarCorDeFundo() {
+ if (mouseX < width/2) {
+  background(0, 0, 255); //Azul } else {
+   background(255, 0, 0); //Vermelho
+  }
+}
